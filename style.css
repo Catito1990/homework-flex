@@ -50,7 +50,6 @@ ul {
 img {
     max-width: 500px;
     margin: 15px;
-    display: block;
 }
 
 h1 {
@@ -60,12 +59,9 @@ h1 {
     line-height: 2em;
 }
 
-p {
-    line-height: 1.2em;
-}
-
 p,
 a {
+    line-height: 1.2em;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -112,7 +108,6 @@ button {
 .two,
 .three,
 .four {
-    display: flex;
     height: 150px;
     width: 150px;
     border: 4px;
@@ -181,7 +176,9 @@ h2 {
 }
 
 #calltoaction {
-    color: #e5e7eb;
+    color: #F9FAF8;
+    font-size: larger;
+    padding-bottom: 5px;
 }
 
 footer {
